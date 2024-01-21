@@ -1,0 +1,21 @@
+.gallery {
+  display: grid;
+  max-width: 1140px;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  gap: 12px;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+.gallery-image:hover {
+  transform: scale(1.03);
+  cursor: url(../images/Vector-2-2.svg), pointer;
+}
+.modal {
+  width: 500px;
+  height: 300px;
+}
